@@ -10,7 +10,7 @@ var port = normalizePort(process.env.PORT || '3000');
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
-var indexRouter = require('./routes/index');
+var indexRouter = require('./routes');
 var usersRouter = require('./routes/users');
 
 // view engine setup
